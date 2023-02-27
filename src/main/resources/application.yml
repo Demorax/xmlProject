@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: XXXXXX
+    username: XXX
+    password: XXX
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
